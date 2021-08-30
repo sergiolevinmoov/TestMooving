@@ -1,0 +1,9 @@
+﻿Dada una secuencia de caracteres (un string) que contiene entre otros caracteres, parentesis ,corchetes y llaves.
+Por ejemplo :
+"a" -> esta bien balanceado
+"a[ba]" -> esta bien balanceado
+"a][" -> No esta balanceado
+"b{(fd})" -> No esta balanceado
+
+1- Implementar un metodo que retorne si los parentesis ,corchetes y llaves estan bien balanceados.
+2- Implementar test unitarios que validen la solucion

@@ -1,0 +1,12 @@
+﻿
+Dado un array de enteros , encontrar en que punto cortar los 2 para minimizar la diferencia entre la suma de los elementos de la primer parte y la segunda.
+Por ejemplo dado el array [3,1,5,7], 
+el mismo se puede partir de diferentes maneras : 
+[3] [1,5,7] -> las sumas de las respectivas partes serian 3 y 13 , la diferencia es 10
+[3,1] [5,7] -> las sumas de las respectivas partes serian 4 y 12 , la diferencia es 8
+[3,1,5] [7] -> las sumas de las respectivas partes serian 9 y 7 , la diferencia es 2
+
+El punto que minimiza la diferencia es 3.
+
+1- Escribir una solucion para este problema
+2= Escribir tests unitarios para validar esta solucion
